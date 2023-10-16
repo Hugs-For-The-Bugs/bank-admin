@@ -69,12 +69,15 @@ The Agile Bank
 
 <li class="openable">
 <a href="inactive.php"><span class="icon li-group-work"></span> <span class="text">Inactive Accounts</span></a>
-</li> 
+</li>
+<li class="openable">
+<a href="charges.php"><span class="icon li-group-work"></span> <span class="text">Transaction Fees</span></a>
+</li>  
 <li class="openable">
 <a href="setting.php"><span class="icon li-cog"></span> <span class="text">Setting</span></a>
 </li> 
 <li class="openable">
-<a href="logout.php"><span class="icon li-cog"></span> <span class="text">Logout</span></a>
-</li> 
+<a href="logout.php"><span class="icon li-user"></span> <span class="text">Logout</span></a>
+</li>
 </ul></nav></div>
 <!-- //END PAGE CONTAINER -->
