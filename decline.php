@@ -10,7 +10,7 @@
 	 	echo  "<script>window.history.back();</script>";
 	 }
   
-      $sql = "UPDATE accounts SET active ='0' WHERE id='{$identity}'";
+      $sql = "UPDATE accounts SET active ='0' WHERE id='{$identity}' AND balance < 1";
       $result = mysqli_query($conn,$sql);  
 	  echo 'processing...';
 
